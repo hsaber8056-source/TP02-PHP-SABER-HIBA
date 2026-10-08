@@ -1,2 +1,6 @@
 # TP02-PHP-SABER-HIBA
 TP 02 PHP — Programmation Web 2 — 2026/2027
+NOM et PRENOM : SABER HIBA
+GROUPE : 3
+titre du TP : TP02
+la liste des exercices : EX1,EX2,EX3,EX4,EX5,EX6,EX7,EX8,EX9,EX10
