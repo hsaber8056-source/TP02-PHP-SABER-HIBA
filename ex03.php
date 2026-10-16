@@ -15,9 +15,11 @@ echo "montant final = $totale_TTC  $DIVISE<br>";
 //4. Ajouter `15 MAD` de frais de livraison au total TTC avec `+=`.
 $totale_TTC += 15;
 echo "le total TTC = $totale_TTC  $DIVISE<br>";
+//5. Afficher un récapitulatif HTML et vérifier l'existence de `TAUX_TVA` avec `defined()`.
 if  (defined("TAUX_TVA")){
     echo"TAUX_TVA est existe";
 }else{
     echo"TAUX_TVA n'est pas existe";
 }
+
 ?>
