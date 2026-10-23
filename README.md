@@ -40,3 +40,15 @@ les nom non valide sont : "a!" ,"$1a"
  `3`-->Mars
  `12`-->Décembre
  `15`-->Numéro de mois invalide
+ ## EX10
+ ## Partie A — GET
+ ## 4. Observer l'URL après l'envoi et expliquer dans le README où apparaissent les valeurs.
+ exemple :(http://localhost:8000/ex10_get.php?nom=SABER&prenom=HIBA&groupe=G3)
+nom=SABER : le nom de l'étudiant.
+prenom=HIBA : le prénom de l'étudiant.
+groupe=G3 : le groupe choisi.
+Le symbole & sépare les différentes valeurs.
+La méthode GET permet de transmettre les données dans l'URL. En PHP, ces données sont récupérées avec le tableau superglobal $_GET.
+## Partie B - POST 
+## 4. Comparer l'URL obtenue avec celle de la partie GET.
+ la méthode GET affiche les données dans l'URL, tandis que la méthode POST ne les affiche pas dans l'URL. Cependant.

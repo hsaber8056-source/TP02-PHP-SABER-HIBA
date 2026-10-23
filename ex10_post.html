@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---1. Créer un second formulaire avec les mêmes champs.
+     # 2. Envoyer les données à `ex10_post.php` avec la méthode POST.--->
+    <form action="ex10_post.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br><br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <br><br>
+
+        <label for="groupe">Groupe :</label>
+        <select id="groupe" name="groupe" required>
+            <option value="">Choisir un groupe</option>
+            <option value="G1">G1</option>
+            <option value="G2">G2</option>
+            <option value="G3">G3</option>
+            <option value="G4">G4</option>
+        </select>
+        <br><br>
+         <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>

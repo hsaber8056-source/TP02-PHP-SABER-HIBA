@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Partie A — GET</title>
 </head>
 <body>
-    <form>
-       Nom :    <input type="text" name="Nom" ><br><br>
-       Prenom : <input type="text" name="Prenom" ><br><br>
-       Groupe : <select name="mes_choix" id="choix" multiple>
-                    <option value="1">G1</option>
-                    <option value="2">G2</option>
-                    <option value="3">G3</option>
-                    <option value="4">G4</option>
-                </select><br>
- 
+    <form action="ex10_get.php" method="get">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br><br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <br><br>
+
+        <label for="groupe">Groupe :</label>
+        <select id="groupe" name="groupe" required>
+            <option value="">Choisir un groupe</option>
+            <option value="G1">G1</option>
+            <option value="G2">G2</option>
+            <option value="G3">G3</option>
+            <option value="G4">G4</option>
+        </select>
+        <br><br>
+         <input type="submit" value="Envoyer">
     </form>
 </body>
 </html>
